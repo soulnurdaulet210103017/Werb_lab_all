@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-image: url("img26.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}   
+
+.ava {
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 15%;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 0.5%;
+    
+}
+h1,p{
+    margin-left: 10px;
+    
+}
+h1{
+    font-size: 250%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 100%;
+}
+.border {
+    margin:auto;
+    width: 50%;
+    border: 1px solid black;
+    margin: 120px auto;
+    background: rgba(86, 86, 89, 0.5);
+
+}
+
+.footer1, .button {
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+span{
+    color: red;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.button{
+    background-color:slategrey;
+    font-size: 120%;
+    
+}
+.footer1{
+    background-color: black;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.lol{
+    margin-top: 4px;
+}
+.whatsapp{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 5%;
+
+    
+}
+img{
+    box-shadow: 5px 5px 5px 5px #888888;
+}
